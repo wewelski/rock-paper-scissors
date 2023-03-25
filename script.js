@@ -20,29 +20,29 @@ console.log("While computer picked " + `${computerSelection}`);
 
 //Match begins
 if (playerSelection === computerSelection) {
-  console.log("It's a tie!");
+  return "It's a tie!";
 }
 else if (playerSelection === "rock") {
   if (computerSelection === "paper") {
-    console.log("Paper covers rock. Computer wins!");
+    return "Paper covers rock. Computer wins!";
   }
   else {
-    console.log("Rock smashes scissors. Player wins!");
+    return "Rock smashes scissors. Player wins!";
   }
 }
 else if (playerSelection === "paper") {
   if (computerSelection === "scissors") {
-    console.log("Scissors cuts paper. Computer wins!");
+    return "Scissors cuts paper. Computer wins!";
   }
   else {
-    console.log("Paper covers rock. Player wins!");
+    return "Paper covers rock. Player wins!";
   }
 }
 else if (playerSelection === "scissors") {
   if (computerSelection === "rock") {
-    console.log("Rock smashes scissors. Computer wins!");
+    return "Rock smashes scissors. Computer wins!";
   }
   else {
-    console.log("Scissors cuts paper. Player wins!");
+    return "Scissors cuts paper. Player wins!";
   }
 }
