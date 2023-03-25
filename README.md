@@ -1,2 +1,2 @@
 # rock-paper-scissors
-First exercise given for the curriculum's JS modules
+A mini-activity putting JS lessons that's been covered so far into practice.
